@@ -16,7 +16,7 @@
     <header class="header">
       <div class="container nav">
         <a class="logo" href=""><span class="accent">WEB</span>STUDIO</a>
-        <nav>
+        <nav class="navigation">
           <ul class="list menu">
             <li class="now-menu">
               <a class="link now" href="./index.html">Studio</a>
@@ -369,8 +369,8 @@
           </ul>
         </div>
         <div class="input-menu">
-          <h3 class="footer-title">Subscribe</h3>
-          <div class="email-menu">
+          <strong class="footer-title">Subscribe</strong>
+          <div class="form-footer">
             <input class="sub-email" type="email" id="email" placeholder="Email" name="email">
             <button class="btn-sub" type="submit">Subscribe</button>
           </div>
@@ -384,37 +384,31 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <div class="form">
-          <h3 class="form-head">Leave your contacts and we will call you back</h3>
+          <strong class="form-head">Leave your contacts and we will call you back</strong>
           
-          <label class="form-text" for="name">Name</label>
-          <div class="form-field">
-            <input class="form-input" type="text" id="name" name="name">
-            <span class="form-icon">
+          <div class="form">
+            <label class="form-text" for="name">Name</label>
+            <div class="form-field">
+              <input class="form-input" type="text" id="name" name="name">
               <svg class="modal-icon" width="18px" height="24px">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
-            </span>
-          </div>
+            </div>
 
-          <label class="form-text" for="phone">Phone</label>
-          <div class="form-field">
-            <input class="form-input" type="tel" id="phone" name="tel">
-            <span class="form-icon">
-                <svg class="modal-icon" width="18px" height="24px">
-                  <use href="./images/icons.svg#icon-phone"></use>
-                </svg>
-            </span>
-          </div>
+            <label class="form-text" for="phone">Phone</label>
+            <div class="form-field">
+              <input class="form-input" type="tel" id="phone" name="tel">
+              <svg class="modal-icon" width="18px" height="24px">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
 
-          <label class="form-text" for="email-ad">Email</label>
-          <div class="form-field">
-            <input class="form-input" type="email" id="email-ad" name="email-modal">
-            <span class="form-icon">
-                <svg class="modal-icon" width="18px" height="24px">
-                  <use href="./images/icons.svg#icon-email"></use>
-                </svg>
-            </span>
+            <label class="form-text" for="email-ad">Email</label>
+            <div class="form-field">
+              <input class="form-input" type="email" id="email-ad" name="email-modal">
+              <svg class="modal-icon" width="18px" height="24px">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
           </div>
           
 
@@ -425,15 +419,13 @@
             <label class="checkbox-label" for="rules">
               <input class="checkbox" type="checkbox" id="rules" name="Privacy">
               <span class="checkbox-icon"></span>
-              I accept the terms and conditions of the 
-              <span class="privacy"> Privacy Policy</span>
+              <p>I accept the terms and conditions of the <a class="privacy">Privacy Policy</a></p>
             </label>
           </div>
           
           
-          <div class="btn-center">
-            <button class="modal-btn" type="submit">Send</button>
-          </div>
+  
+          <button class="modal-btn" type="submit">Send</button>
         </div>
       </div>
     </div>
